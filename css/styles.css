@@ -38,3 +38,17 @@ button {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
+h1 {
+  width: 496px;
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;Effective Solutions
+  for Your Business
+}
