@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+footer {
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.dark-bg {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+button {
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
