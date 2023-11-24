@@ -6,12 +6,14 @@
 --color-email:#434455;
 }
 
+.body{ font-family: "Roboto", sans-serif;}
+
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,75;
-  letter-spacing: 0,03em;
+  line-height: 1.75;
+  letter-spacing: 0.03em;
   color:var(--color-logo);  
   text-transform: uppercase;}
 
@@ -37,10 +39,10 @@
 list-style: none; }
 .email{
   font-size: 16px;
-  line-height: 1,5;
-  letter-spacing: 0,02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color:var(--color-email);
-  text-decoration: none;
+  text-decoration: none.
 }
 .email:hover .email:visited{color:#404bbf}
 
@@ -112,6 +114,7 @@ list-style: none; }
                
         .portfolio-body{
         color: #434455;
+        font-family: "Roboto", sans-serif;
         }
         
 .pofrfolio-button{
