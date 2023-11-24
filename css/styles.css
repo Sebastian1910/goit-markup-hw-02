@@ -88,3 +88,43 @@ list-style: none; }
       letter-spacing: 0.02em;
       color: var(--color-email);
     }
+        .class-h2{
+          font-size: 36px;
+          line-height: 1.11;
+          text-align: center;
+          letter-spacing: 0.02em;
+          text-transform: capitalize;
+          color: var(--color-link-studio);
+        }
+
+        .page-footer{
+          background-color: var(--color-link-studio);
+        }
+        .footer-span{
+          color: #f4f4fd;
+        }
+        .footre-p{
+          color: #f4f4fd;
+          line-height: 1.5;
+          letter-spacing: 0.02em;
+        }
+
+               
+        .portfolio-body{
+        color: #434455;
+        }
+        
+.pofrfolio-button{
+font-family: "Roboto";
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-logo);
+background-color: #f4f4fd;
+cursor: pointer;
+}
+.pofrfolio-button:hover .pofrfolio-button:active
+{color: #FFFFFF;
+background-color: #404BBF;
+}
