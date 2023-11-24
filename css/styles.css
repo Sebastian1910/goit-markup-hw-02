@@ -1,57 +1,90 @@
 :root {
-  --first-color-text: #000;
-  --second-color-text: #4285f4;
-  --color-white: white;
-  --iris: #4D5AE5;
-  --navy-blue: #2E2F42;
-}
-
-body {font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-color: #333;
-line-height: 1.6;}
-
-header {
-  background-color: var(--color-white);
-}
-:root {
-  --first-color-text: #000;
-  --second-color-text: #4285f4;
-  --color-white: white;
-  --iris: #4D5AE5;
-}
-
-button {
-  color: var(--color-white);
-  background-color: var(--iris);
- cursor: pointer;
-}
-
-button:hover {
-  background-color: blue;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  --color-logo:#4d5ae5;
+  --color-span-clas:#2e2f42;
+--color-link-studio:#2e2f42;
+--color-link-studio-hover:#404bbf;
+--color-email:#434455;
 }
 
 .logo {
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  
-  font-weight: 600;}
-  .highlight {
-    color: var(--second-color-text);
-  }
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1,75;
+  letter-spacing: 0,03em;
+  color:var(--color-logo);  
+  text-transform: uppercase;}
 
-.dark-bg{color: var(--color-white);
-      background-color:var(--navy-blue)
+.link
+{text-decoration: none;}
+
+.link-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-link-studio);
+}
+
+.link-studio:hover .link-studio:active
+{ 
+  color:var(--color-link-studio-hover);
+}
+
+.list{list-style: none;}
+
+.addres-clas{font-style: normal;
+list-style: none; }
+.email{
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0,02em;
+  color:var(--color-email);
+  text-decoration: none;
+}
+.email:hover .email:visited{color:#404bbf}
+
+.span-clas {
+  color:var(--color-span-clas);}
+
+
+
+
+
+
+
+
+ .section1 {background-color:#2e2f42 }
+
+ .top{font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+ }
+ .button{background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color:#ffffff;
+  cursor: pointer;
+}
+.button:hover .button:active {
+  background-color: #404BBF;}
+
+
+    .class-h3 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--color-span-clas);
     }
-    
- .page-footer{color: var(--color-white);
-    background-color: var(--navy-blue)}
+    .class-p{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--color-email);
+    }
