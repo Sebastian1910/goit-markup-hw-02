@@ -6,7 +6,9 @@
 --color-email:#434455;
 }
 
-.body{ font-family: "Roboto", sans-serif;}
+body{ font-family: "Roboto", sans-serif;
+color: var(--color-email);
+background-color: #FFFFFF;}
 
 .logo {
   font-family: "Raleway", sans-serif;
