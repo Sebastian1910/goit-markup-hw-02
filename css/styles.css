@@ -44,7 +44,7 @@ list-style: none; }
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--color-email);
-  text-decoration: none.
+  text-decoration: none;
 }
 .email:hover .email:visited{color:#404bbf}
 
@@ -75,7 +75,7 @@ list-style: none; }
   color:#ffffff;
   cursor: pointer;
 }
-.button:hover .button:active {
+.button:hover .button:focus {
   background-color: #404BBF;}
 
 
@@ -129,7 +129,7 @@ color: var(--color-logo);
 background-color: #f4f4fd;
 cursor: pointer;
 }
-.pofrfolio-button:hover .pofrfolio-button:active
+.pofrfolio-button:hover .pofrfolio-button:focus
 {color: #FFFFFF;
 background-color: #404BBF;
 }
