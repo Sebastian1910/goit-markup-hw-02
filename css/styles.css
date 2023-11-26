@@ -13,7 +13,7 @@
     background-color: var(--color-white);
   }
 
-  .logo  {
+  .lo-go  {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -129,7 +129,7 @@ color: var(--color-blue);
 .f-studio{
   color:var(--color-white-2);
 }
-.f-p {
+.logo{
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
