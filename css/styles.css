@@ -94,7 +94,7 @@ color: var(--color-blue);
     background-color: var(--color-dark-blue);
   }
 
-.class-h3{
+.class-h-three{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -108,7 +108,7 @@ color: var(--color-blue);
   letter-spacing: 0.02em;
   color: var(--color-gray);
 }
-.class-h2{
+.class-h-two{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -140,7 +140,7 @@ color: var(--color-blue);
 
 
 
-.button-2{
+.button-two{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -150,7 +150,7 @@ color: var(--color-blue);
   background-color: var(--color-white-2);
   cursor: pointer;
 }
-.button-2:hover{color: var(--color-white);
+.button-two:hover{color: var(--color-white);
 background-color: var(--color-dark-blue);}
-.button-2:active{color: var(--color-white);
+.button-two:active{color: var(--color-white);
 background-color: var(--color-dark-blue);}
