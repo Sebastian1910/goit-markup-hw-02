@@ -41,12 +41,13 @@ color: var(--color-blue);
     letter-spacing: 0.02em;
     color:var(--color-dark-grey)
 }
-.link-studio:hover{
+.link-studio:hover, 
+.link-studio:active, 
+.link-studio:focus,
+ .link-studio:visited{
   color: var(--color-dark-blue);} 
 
-.link-studio:active {
-  color: var(--color-dark-blue);}
-  
+
 
 .addres-clas{font-style: normal;
 }
