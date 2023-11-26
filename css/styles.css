@@ -59,11 +59,11 @@ color: var(--color-blue);
   color: var(--color-gray);
 }
 
-.contact:hover {
-  color: var(--color-dark-blue);}
+.contact:hover,
+ .contact:focus,
   .contact:active{
-    color: var(--color-dark-blue);
-  }
+  color: var(--color-dark-blue);}
+ 
 
   .dark-bg{
     background-color: var(--color-dark-grey);
@@ -87,12 +87,12 @@ color: var(--color-blue);
   color: var(--color-white);
   cursor: pointer;
 }
-.button:hover{
+.button:hover,
+ .button:active,
+  .button:focus{
   background-color: var(--color-dark-blue);}
 
-  .button:active{
-    background-color: var(--color-dark-blue);
-  }
+  
 
 .class-h-three{
   font-weight: 500;
@@ -150,7 +150,7 @@ color: var(--color-blue);
   background-color: var(--color-white-2);
   cursor: pointer;
 }
-.button-two:hover{color: var(--color-white);
-background-color: var(--color-dark-blue);}
-.button-two:active{color: var(--color-white);
+.button-two:hover,
+ .button-two:active,
+ .button-two:focus{color: var(--color-white);
 background-color: var(--color-dark-blue);}
