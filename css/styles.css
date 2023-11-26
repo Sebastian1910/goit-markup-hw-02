@@ -133,3 +133,24 @@ color: var(--color-blue);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+
+
+
+
+
+
+.button-2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-blue);
+  background-color: var(--color-white-2);
+  cursor: pointer;
+}
+.button-2:hover{color: var(--color-white);
+background-color: var(--color-dark-blue);}
+.button-2:active{color: var(--color-white);
+background-color: var(--color-dark-blue);}
