@@ -94,8 +94,7 @@ color: var(--color-blue);
   background-color: var(--color-dark-blue);}
 
   
-
-.class-h-three{
+.list-item-header{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
