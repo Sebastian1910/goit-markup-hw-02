@@ -73,7 +73,7 @@ body{
   background-color: var(--color-dark-grey);
   }
 
-.top {
+.top{
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -81,7 +81,7 @@ body{
   color:var(--color-white);
   }
 
-.button {
+.button{
   background-color:var(--color-blue);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -149,6 +149,7 @@ body{
   cursor: pointer;
  }
 
+ 
 .button-two:hover,
 .button-two:active,
 .button-two:focus{color: var(--color-white);
