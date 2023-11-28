@@ -149,7 +149,6 @@ body{
   cursor: pointer;
  }
 
- 
 .button-two:hover,
 .button-two:active,
 .button-two:focus{color: var(--color-white);
