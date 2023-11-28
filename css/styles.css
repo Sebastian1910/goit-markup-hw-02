@@ -154,11 +154,3 @@ body{
 .button-two:focus{color: var(--color-white);
    background-color: var(--color-dark-blue);
   }
-.layout{
-  display: flex;
-width: 1440px;
-height: 72px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-}
