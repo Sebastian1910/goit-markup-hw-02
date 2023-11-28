@@ -46,7 +46,8 @@ body{
 .link-studio:hover, 
 .link-studio:active, 
 .link-studio:focus,{
-  color: var(--color-dark-blue);} 
+  color: var(--color-dark-blue);
+  } 
 
 
 
